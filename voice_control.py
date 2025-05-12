@@ -1,9 +1,9 @@
-from suppress_alsa_warnings import suppress
-suppress()
+
 import speech_recognition as sr
 from gpiozero import LED
 import time
-
+from suppress_alsa_warnings import suppress
+suppress()
 #Setup
 # Set up LEDs
 red_led = LED(17)
