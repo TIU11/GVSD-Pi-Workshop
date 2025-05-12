@@ -76,7 +76,7 @@ while running:
         except sr.RequestError:
             print("Could not request results from Google Speech Recognition service.")
         except Exception as e:
-            print(f"Error: {e}")
+            print("error")
 
 # Cleanup
 red_led.off()
